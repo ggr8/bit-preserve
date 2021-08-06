@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IIgs-Schematic:M50741 UG12
-U 1 1 5BF205D4
-P 5400 3300
-F 0 "UG12" H 5550 4750 50  0000 C CNN
-F 1 "M50741" H 5600 4650 50  0000 C CNN
-F 2 "" H 4950 4700 50  0001 C CNN
-F 3 "" H 4950 4700 50  0001 C CNN
-	1    5400 3300
-	1    0    0    -1  
-$EndComp
-$Comp
 L IIgs-Schematic:Game-IO J21
 U 1 1 5BF2066B
 P 1650 6800
@@ -108,7 +97,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 3000 8550 3000
 Text Label 8550 3000 0    50   ~ 0
-UI12-19
+UI12-STB
 Wire Wire Line
 	9050 2800 8550 2800
 Text Label 8550 2800 0    50   ~ 0
@@ -227,56 +216,56 @@ CP-CNTL
 $Comp
 L IIgs-Schematic-rescue:M02-freetronics_schematic-IIgs-Schematic-rescue JP?
 U 1 1 5CB3AF62
-P 7600 3850
-F 0 "JP?" H 7578 3790 50  0000 L CNN
-F 1 "M02-freetronics_schematic" H 7578 3744 40  0001 L CNN
-F 2 "" H 7600 3850 60  0000 C CNN
-F 3 "" H 7600 3850 60  0000 C CNN
-	1    7600 3850
+P 7600 4950
+F 0 "JP?" H 7578 4890 50  0000 L CNN
+F 1 "M02-freetronics_schematic" H 7578 4844 40  0001 L CNN
+F 2 "" H 7600 4950 60  0000 C CNN
+F 3 "" H 7600 4950 60  0000 C CNN
+	1    7600 4950
 	1    0    0    -1  
 $EndComp
-Text Label 6850 3950 0    50   ~ 0
+Text Label 6850 5050 0    50   ~ 0
 CP-CNTL
 Wire Wire Line
-	6850 3950 7250 3950
+	6850 5050 7250 5050
 Wire Wire Line
-	7300 3850 7250 3850
+	7300 4950 7250 4950
 Wire Wire Line
-	7250 3850 7250 3750
+	7250 4950 7250 4850
 $Comp
 L power:+5V #PWR?
 U 1 1 5CB3CD3A
-P 7250 3750
-F 0 "#PWR?" H 7250 3600 50  0001 C CNN
-F 1 "+5V" H 7265 3923 50  0000 C CNN
-F 2 "" H 7250 3750 50  0001 C CNN
-F 3 "" H 7250 3750 50  0001 C CNN
-	1    7250 3750
+P 7250 4850
+F 0 "#PWR?" H 7250 4700 50  0001 C CNN
+F 1 "+5V" H 7265 5023 50  0000 C CNN
+F 2 "" H 7250 4850 50  0001 C CNN
+F 3 "" H 7250 4850 50  0001 C CNN
+	1    7250 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R217
 U 1 1 5CB3CD82
-P 7250 4150
-F 0 "R217" H 7320 4196 50  0000 L CNN
-F 1 "4.7k" H 7320 4105 50  0000 L CNN
-F 2 "" V 7180 4150 50  0001 C CNN
-F 3 "~" H 7250 4150 50  0001 C CNN
-	1    7250 4150
+P 7250 5250
+F 0 "R217" H 7320 5296 50  0000 L CNN
+F 1 "4.7k" H 7320 5205 50  0000 L CNN
+F 2 "" V 7180 5250 50  0001 C CNN
+F 3 "~" H 7250 5250 50  0001 C CNN
+	1    7250 5250
 	1    0    0    -1  
 $EndComp
-Connection ~ 7250 3950
+Connection ~ 7250 5050
 Wire Wire Line
-	7250 3950 7300 3950
+	7250 5050 7300 5050
 $Comp
 L power:GND #PWR?
 U 1 1 5CB3DD1A
-P 7250 4350
-F 0 "#PWR?" H 7250 4100 50  0001 C CNN
-F 1 "GND" H 7255 4177 50  0000 C CNN
-F 2 "" H 7250 4350 50  0001 C CNN
-F 3 "" H 7250 4350 50  0001 C CNN
-	1    7250 4350
+P 7250 5450
+F 0 "#PWR?" H 7250 5200 50  0001 C CNN
+F 1 "GND" H 7255 5277 50  0000 C CNN
+F 2 "" H 7250 5450 50  0001 C CNN
+F 3 "" H 7250 5450 50  0001 C CNN
+	1    7250 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -944,7 +933,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 2850 3850 2850
 Text Label 3850 2850 2    50   ~ 0
-UI12-19
+UI12-STB
 Wire Wire Line
 	6850 1900 6800 1900
 $Comp
@@ -969,20 +958,20 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7050 1500 50  0001 C CNN
 	1    7050 1500
 	0    -1   -1   0   
 $EndComp
-Text Label 7650 1400 2    50   ~ 0
-UI12-13
-Text Label 7650 1300 2    50   ~ 0
-UI12-14
-Text Label 7650 1200 2    50   ~ 0
-UI12-15
+Text Label 7750 1400 2    50   ~ 0
+UI12-SEL0
+Text Label 7750 1300 2    50   ~ 0
+UI12-SEL1
+Text Label 7750 1200 2    50   ~ 0
+UI12-SEL2
 Wire Wire Line
-	7650 1400 7250 1400
+	7750 1400 7250 1400
 Wire Wire Line
-	7250 1300 7650 1300
+	7250 1300 7750 1300
 Wire Wire Line
-	7650 1200 7250 1200
+	7750 1200 7250 1200
 Wire Wire Line
-	7250 1100 7650 1100
+	7250 1100 7750 1100
 Text Label 7650 1600 2    50   ~ 0
 UI14-34
 Text Label 7650 1500 2    50   ~ 0
@@ -1026,13 +1015,13 @@ Wire Wire Line
 Text Label 4550 2050 0    50   ~ 0
 L2-8
 Text Label 4250 2650 0    50   ~ 0
-UI12-14
+UI12-SEL1
 Text Label 4250 2550 0    50   ~ 0
-UI12-15
+UI12-SEL2
 Text Label 4250 2450 0    50   ~ 0
-UI12-16
+UI12-SEL3
 Text Label 4250 2350 0    50   ~ 0
-UI12-19
+UI12-STB
 Wire Wire Line
 	4250 2650 4750 2650
 Wire Wire Line
@@ -1041,10 +1030,10 @@ Wire Wire Line
 	4250 2450 4750 2450
 Wire Wire Line
 	4750 2350 4250 2350
-Text Label 7650 1100 2    50   ~ 0
-UI12-16
+Text Label 7750 1100 2    50   ~ 0
+UI12-SEL3
 Text Label 4250 2750 0    50   ~ 0
-UI12-13
+UI12-SEL0
 Wire Wire Line
 	4250 2750 4750 2750
 Text Label 4250 2250 0    50   ~ 0
@@ -1213,9 +1202,9 @@ Wire Wire Line
 Wire Wire Line
 	6950 3000 6950 3050
 Wire Wire Line
-	7250 3950 7250 4050
+	7250 5050 7250 5150
 Wire Wire Line
-	7250 4250 7250 4350
+	7250 5350 7250 5450
 Wire Wire Line
 	3950 6650 3950 7050
 Wire Wire Line
@@ -1278,7 +1267,7 @@ Wire Wire Line
 	8600 1400 9050 1400
 Wire Wire Line
 	8600 1900 9050 1900
-Text Notes 10100 3850 2    50   ~ 0
+Text Notes 10100 3850 2    39   ~ 0
 Does KEYGLU also do matrix decoding?!\n(For the Apple IIe Keyboard connector)
 Text HLabel 8600 4950 0    50   Input ~ 0
 SW0-OAPL
@@ -1352,4 +1341,21 @@ Wire Wire Line
 	5350 6700 5350 6750
 Wire Wire Line
 	4550 4050 4750 4050
+$Comp
+L IIgs-Schematic:M50741 UG12
+U 1 1 5BF205D4
+P 5400 3300
+F 0 "UG12" H 5550 4750 50  0000 C CNN
+F 1 "M50741" H 5600 4650 50  0000 C CNN
+F 2 "" H 4950 4700 50  0001 C CNN
+F 3 "" H 4950 4700 50  0001 C CNN
+	1    5400 3300
+	1    0    0    -1  
+$EndComp
+Text Notes 4900 1400 0    50   ~ 0
+UG12 is UI14 on 256K
+Text Notes 2550 2500 0    50   ~ 0
+UL12 labels changed from schematic
+Text Notes 6700 3900 0    39   ~ 0
+UI14-35 and 34 are strange designations here. \nThey connected to the keyboard matrix on the \n256K IIgs (which 1MB doesn't have.)\n-35 is X1\n-34 is X2\n\nBut the rest of the matrix is missing.
 $EndSCHEMATC
