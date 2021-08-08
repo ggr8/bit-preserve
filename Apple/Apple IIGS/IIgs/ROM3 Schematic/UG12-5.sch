@@ -1267,8 +1267,6 @@ Wire Wire Line
 	8600 1400 9050 1400
 Wire Wire Line
 	8600 1900 9050 1900
-Text Notes 10100 3850 2    39   ~ 0
-Does KEYGLU also do matrix decoding?!\n(For the Apple IIe Keyboard connector)
 Text HLabel 8600 4950 0    50   Input ~ 0
 SW0-OAPL
 Text HLabel 7350 2650 2    50   Input ~ 0

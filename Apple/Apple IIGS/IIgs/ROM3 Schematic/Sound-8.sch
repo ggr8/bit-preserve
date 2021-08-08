@@ -3,8 +3,8 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 10
-Title ""
+Sheet 8 10
+Title "Sound"
 Date ""
 Rev "2"
 Comp ""
@@ -194,11 +194,9 @@ Wire Wire Line
 Text Label 1950 6000 0    50   ~ 0
 BABUA1
 Wire Wire Line
-	1950 6000 2500 6000
+	1850 6000 2500 6000
 Text Label 1950 6100 0    50   ~ 0
 BABUS0
-Wire Wire Line
-	1950 6100 2500 6100
 Text Label 1950 6250 0    50   ~ 0
 SND-R-W.H
 Text Label 1950 6350 0    50   ~ 0
@@ -261,10 +259,6 @@ Wire Wire Line
 	2500 7550 2400 7550
 Wire Wire Line
 	1350 6450 2500 6450
-Text GLabel 1350 6450 0    50   Input ~ 0
-C038-F.L
-Text GLabel 1350 7450 0    50   Input ~ 0
-RESET.L
 Wire Wire Line
 	1750 6250 1750 7800
 Wire Wire Line
@@ -312,8 +306,6 @@ Wire Wire Line
 	1750 7850 1750 7950
 Wire Wire Line
 	1250 7850 1000 7850
-Text GLabel 1000 7850 0    50   Input ~ 0
-A2R-W.H
 $Comp
 L power:GNDREF #PWR?
 U 1 1 5EC5F613
@@ -1051,10 +1043,6 @@ Wire Wire Line
 	7550 7400 7150 7400
 Wire Wire Line
 	7550 7500 7150 7500
-Text GLabel 7150 7400 0    50   Input ~ 0
-RESET.L
-Text GLabel 7150 7500 0    50   Input ~ 0
-IRQ.L
 Wire Wire Line
 	7550 7800 7150 7800
 Text Label 7150 7800 0    50   ~ 0
@@ -1073,8 +1061,6 @@ Wire Wire Line
 	7550 8200 7150 8200
 Wire Wire Line
 	7550 8300 7150 8300
-Text GLabel 7150 8300 0    50   Input ~ 0
-7M.H
 Text Label 8400 9950 0    50   ~ 0
 J25-1
 Text Label 8400 10150 0    50   ~ 0
@@ -1273,8 +1259,6 @@ Wire Wire Line
 	3500 5800 4050 5800
 Wire Wire Line
 	3500 6400 4050 6400
-Text GLabel 4050 6400 2    39   Input ~ 0
-7M.H
 Wire Wire Line
 	4350 3850 4650 3850
 Connection ~ 4350 3850
@@ -1621,8 +1605,6 @@ Wire Wire Line
 	10850 6250 10550 6250
 Wire Wire Line
 	10550 6250 10550 6350
-Text GLabel 10500 6250 0    39   Input ~ 0
-SOUND.H
 Wire Wire Line
 	10500 6250 10550 6250
 Connection ~ 10550 6250
@@ -2110,8 +2092,6 @@ F 3 "~" H 9450 4550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9150 4550 9250 4550
-Text GLabel 9150 4550 0    50   Input ~ 0
-SPKR.H
 Wire Wire Line
 	9550 4550 9700 4550
 $Comp
@@ -2966,4 +2946,50 @@ Text Label 8300 1100 2    50   ~ 0
 SND-SIG+
 Text Label 11250 1250 0    50   ~ 0
 SR2-1
+Text HLabel 1350 6450 0    50   Input ~ 0
+C038-F.L
+Text HLabel 4050 6400 2    39   Input ~ 0
+7M.H
+Text HLabel 1350 7450 0    50   Input ~ 0
+RESET.L
+Text HLabel 1000 7850 0    50   Input ~ 0
+A2R-W.H
+Wire Bus Line
+	1850 4800 1650 4800
+Text HLabel 1650 4800 0    50   Input ~ 0
+MDBUS[7..0]
+Entry Wire Line
+	1850 5000 1950 5100
+Entry Wire Line
+	1850 5100 1950 5200
+Entry Wire Line
+	1850 5200 1950 5300
+Entry Wire Line
+	1850 5300 1950 5400
+Entry Wire Line
+	1850 5400 1950 5500
+Entry Wire Line
+	1850 5500 1950 5600
+Entry Wire Line
+	1850 5600 1950 5700
+Entry Wire Line
+	1850 5700 1950 5800
+Text HLabel 1850 6000 0    50   Input ~ 0
+BABUS1
+Text HLabel 1850 6100 0    50   Input ~ 0
+BABUS0
+Wire Wire Line
+	1850 6100 2500 6100
+Wire Bus Line
+	1850 4800 1850 5700
+Text HLabel 7150 7400 0    50   Input ~ 0
+RESET.L
+Text HLabel 7150 7500 0    50   Input ~ 0
+IRQ.L
+Text HLabel 7150 8300 0    50   Input ~ 0
+7M.H
+Text HLabel 10500 6250 0    39   Input ~ 0
+SOUND.H
+Text HLabel 9150 4550 0    50   Input ~ 0
+SPKR.H
 $EndSCHEMATC

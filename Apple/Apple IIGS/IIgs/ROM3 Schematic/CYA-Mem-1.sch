@@ -250,12 +250,6 @@ F 3 "~" H 3750 3500 50  0001 C CNN
 $EndComp
 Text Label 2950 3550 2    50   ~ 0
 PH2D.H
-Text GLabel 3750 3550 2    50   Input ~ 0
-PH2.H
-Text GLabel 2850 4100 2    50   Input ~ 0
-NMI.L
-Text GLabel 2850 4250 2    50   Input ~ 0
-RDY.H
 $Comp
 L Device:R_Small R133
 U 1 1 5C24ED1D
@@ -314,16 +308,12 @@ Wire Wire Line
 	4750 4300 4450 4300
 Wire Wire Line
 	4450 4450 4750 4450
-Text GLabel 2850 4400 2    50   Input ~ 0
-RESET.L
 Wire Wire Line
 	2850 4400 2600 4400
 Wire Wire Line
 	4750 5050 4400 5050
 Text Label 4400 5050 0    50   ~ 0
 RESET.L
-Text GLabel 4050 4850 0    50   Input ~ 0
-STRETCH.L
 Wire Wire Line
 	4050 4850 4150 4850
 $Comp
@@ -346,8 +336,6 @@ Text Label 1200 3350 0    50   ~ 0
 ABORT
 Text Label 1300 4150 0    50   ~ 0
 VP
-Text GLabel 2850 4550 2    50   Input ~ 0
-IRQ.L
 Wire Wire Line
 	2600 4550 2850 4550
 $Comp
@@ -400,12 +388,6 @@ F 3 "" H 1100 2950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1100 3350 1550 3350
-Text GLabel 4450 4000 0    50   Input ~ 0
-PH2.H
-Text GLabel 4450 4300 0    50   Input ~ 0
-RDY.H
-Text GLabel 3850 4650 0    50   Input ~ 0
-NMI.L
 $Comp
 L Device:R_Small R6
 U 1 1 5CFF7621
@@ -557,8 +539,6 @@ Wire Wire Line
 	1100 3250 1100 3350
 Wire Wire Line
 	1100 2950 1100 3050
-Text GLabel 6700 1200 2    50   Input ~ 0
-M2BA0
 Wire Wire Line
 	6150 1200 6350 1200
 $Comp
@@ -641,8 +621,6 @@ F 3 "~" H 7250 2550 50  0001 C CNN
 	1    7250 2550
 	0    1    1    0   
 $EndComp
-Text GLabel 7500 2550 2    50   Input ~ 0
-CASD
 $Comp
 L Connector:TestPoint TP95
 U 1 1 5D0C6271
@@ -654,8 +632,6 @@ F 3 "~" H 6900 2400 50  0001 C CNN
 	1    6700 2400
 	1    0    0    -1  
 $EndComp
-Text GLabel 7500 2400 2    50   Input ~ 0
-RASD
 Connection ~ 6700 2400
 Wire Wire Line
 	6150 2400 6700 2400
@@ -699,20 +675,12 @@ Wire Wire Line
 	6150 2750 6600 2750
 Wire Wire Line
 	6150 3800 6600 3800
-Text GLabel 6600 3800 2    50   Input ~ 0
-14MD.H
 Wire Wire Line
 	6150 3950 6600 3950
 Wire Wire Line
 	6600 4100 6150 4100
 Wire Wire Line
 	6150 4250 6600 4250
-Text GLabel 6600 3950 2    50   Input ~ 0
-ROMSEL1.L
-Text GLabel 6600 4100 2    50   Input ~ 0
-ROMOE-A16D
-Text GLabel 6600 4250 2    50   Input ~ 0
-ROMSEL0.L
 $Comp
 L Device:R_Small R31
 U 1 1 5D13E0C3
@@ -724,8 +692,6 @@ F 3 "~" H 6800 4450 50  0001 C CNN
 	1    6800 4450
 	0    1    1    0   
 $EndComp
-Text GLabel 7000 4450 2    50   Input ~ 0
-ROMSEL0.L
 Wire Wire Line
 	7000 4450 6900 4450
 Text Label 6600 4450 2    50   ~ 0
@@ -748,12 +714,6 @@ Wire Wire Line
 	6400 4450 6700 4450
 Wire Wire Line
 	6150 4650 6600 4650
-Text GLabel 6600 4650 2    50   Input ~ 0
-A2R-W.H
-Text GLabel 6600 4850 2    50   Input ~ 0
-DMA.L
-Text GLabel 6600 5050 2    50   Input ~ 0
-DBDIR.L
 Wire Wire Line
 	6150 4850 6300 4850
 Wire Wire Line
@@ -791,16 +751,10 @@ Wire Wire Line
 	7450 4950 7350 4950
 Wire Wire Line
 	6600 5050 6150 5050
-Text GLabel 6600 5250 2    50   Input ~ 0
-DBENB.L
 Wire Wire Line
 	6600 5250 6150 5250
-Text GLabel 6600 5450 2    50   Input ~ 0
-ABENB.L
 Wire Wire Line
 	6600 5450 6150 5450
-Text GLabel 6600 5650 2    50   Input ~ 0
-ABDIR.L
 Wire Wire Line
 	6600 5650 6150 5650
 Text Label 8600 3000 0    50   ~ 0
@@ -1168,8 +1122,6 @@ Wire Wire Line
 	7250 5950 7100 5950
 Wire Wire Line
 	8550 6050 8850 6050
-Text GLabel 8850 6050 2    50   Input ~ 0
-fastRR-W.H
 Wire Wire Line
 	8050 4800 8050 6050
 Wire Wire Line
@@ -1192,4 +1144,52 @@ Wire Wire Line
 	5450 900  5450 950 
 Text Notes 5650 850  0    50   ~ 0
 CYA aka FPI
+Text HLabel 2850 4550 2    50   Input ~ 0
+IRQ.L
+Text HLabel 2850 4400 2    50   Input ~ 0
+RESET.L
+Text HLabel 2850 4250 2    50   Input ~ 0
+RDY.H
+Text HLabel 2850 4100 2    50   Input ~ 0
+NMI.L
+Text HLabel 3750 3550 2    50   Input ~ 0
+PH2.H
+Text HLabel 4450 4000 0    50   Input ~ 0
+PH2.H
+Text HLabel 4450 4300 0    50   Input ~ 0
+RDY.H
+Text HLabel 3850 4650 0    50   Input ~ 0
+NMI.L
+Text HLabel 4050 4850 0    50   Input ~ 0
+STRETCH.L
+Text HLabel 6600 5650 2    50   Input ~ 0
+ABDIR.L
+Text HLabel 6600 5450 2    50   Input ~ 0
+ABENB.L
+Text HLabel 6600 5250 2    50   Input ~ 0
+DBENB.L
+Text HLabel 6600 5050 2    50   Input ~ 0
+DBDIR.L
+Text HLabel 6600 4850 2    50   Input ~ 0
+DMA.L
+Text HLabel 6600 4650 2    50   Input ~ 0
+A2R-W.H
+Text HLabel 7000 4450 2    50   Input ~ 0
+ROMSEL0.L
+Text HLabel 6600 4250 2    50   Input ~ 0
+ROMSEL0.L
+Text HLabel 6600 4100 2    50   Input ~ 0
+ROMOE-A16D
+Text HLabel 6600 3950 2    50   Input ~ 0
+ROMSEL1.L
+Text HLabel 6600 3800 2    50   Input ~ 0
+14MD.H
+Text HLabel 7500 2550 2    50   Input ~ 0
+CASD
+Text HLabel 7500 2400 2    50   Input ~ 0
+RASD
+Text HLabel 6700 1200 2    50   Input ~ 0
+M2BA0
+Text HLabel 8850 6050 2    50   Input ~ 0
+fastRR-W.H
 $EndSCHEMATC
