@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 9 10
-Title "Fast RAM and ROM"
+Title "Fast RAM and IIgs ROM"
 Date ""
 Rev "2"
 Comp ""
@@ -180,12 +180,6 @@ Wire Wire Line
 	2500 2500 3000 2500
 Wire Wire Line
 	2500 2400 3000 2400
-Wire Wire Line
-	2500 2600 3000 2600
-Wire Wire Line
-	2500 2700 3000 2700
-Wire Wire Line
-	2500 2800 3000 2800
 Wire Wire Line
 	3900 1850 4200 1850
 Wire Wire Line
@@ -1138,4 +1132,206 @@ Wire Wire Line
 Wire Wire Line
 	4400 9700 4700 9700
 Connection ~ 4400 9700
+Wire Bus Line
+	2400 1450 2200 1450
+Text HLabel 2200 1450 0    50   Input ~ 0
+FRABUS[9:0]
+Entry Wire Line
+	2400 1500 2500 1600
+Entry Wire Line
+	2400 1600 2500 1700
+Entry Wire Line
+	2400 1700 2500 1800
+Entry Wire Line
+	2400 1800 2500 1900
+Entry Wire Line
+	2400 1900 2500 2000
+Entry Wire Line
+	2400 2000 2500 2100
+Entry Wire Line
+	2400 2100 2500 2200
+Entry Wire Line
+	2400 2200 2500 2300
+Entry Wire Line
+	2400 2300 2500 2400
+Entry Wire Line
+	2400 2400 2500 2500
+Wire Wire Line
+	2250 2600 3000 2600
+Wire Wire Line
+	2250 2700 3000 2700
+Wire Wire Line
+	2250 2800 3000 2800
+Text HLabel 2250 2600 0    50   Input ~ 0
+RAS
+Text HLabel 2250 2700 0    50   Input ~ 0
+CAS
+Text HLabel 2250 2800 0    50   Input ~ 0
+FastRR-W.H
+Wire Wire Line
+	1800 6700 1500 6700
+Wire Wire Line
+	1500 6600 1800 6600
+Wire Wire Line
+	1800 6500 1500 6500
+Wire Wire Line
+	1800 6400 1500 6400
+Wire Wire Line
+	1800 6300 1500 6300
+Wire Wire Line
+	1800 6200 1500 6200
+Wire Wire Line
+	1800 6100 1500 6100
+Wire Wire Line
+	1800 6000 1500 6000
+Text Label 1800 6700 2    50   ~ 0
+DBUS7
+Text Label 1800 6600 2    50   ~ 0
+DBUS6
+Text Label 1800 6500 2    50   ~ 0
+DBUS5
+Text Label 1800 6400 2    50   ~ 0
+DBUS4
+Text Label 1800 6300 2    50   ~ 0
+DBUS3
+Text Label 1800 6200 2    50   ~ 0
+DBUS2
+Text Label 1800 6100 2    50   ~ 0
+DBUS1
+Text Label 1800 6000 2    50   ~ 0
+DBUS0
+Wire Bus Line
+	1400 5900 1300 5900
+Text HLabel 1300 5900 0    50   Input ~ 0
+DBUS[7:0]
+Entry Wire Line
+	1400 5900 1500 6000
+Entry Wire Line
+	1400 6000 1500 6100
+Entry Wire Line
+	1400 6100 1500 6200
+Entry Wire Line
+	1400 6200 1500 6300
+Entry Wire Line
+	1400 6300 1500 6400
+Entry Wire Line
+	1400 6400 1500 6500
+Entry Wire Line
+	1400 6500 1500 6600
+Entry Wire Line
+	1400 6600 1500 6700
+Wire Wire Line
+	1450 9800 1850 9800
+Text Label 1850 9800 2    50   ~ 0
+ABUS15
+Wire Wire Line
+	1450 9700 1850 9700
+Text Label 1850 9700 2    50   ~ 0
+ABUS14
+Text Label 1850 9600 2    50   ~ 0
+ABUS13
+Text Label 1850 9500 2    50   ~ 0
+ABUS12
+Text Label 1850 9400 2    50   ~ 0
+ABUS11
+Text Label 1850 9300 2    50   ~ 0
+ABUS10
+Text Label 1850 9200 2    50   ~ 0
+ABUS9
+Text Label 1850 9100 2    50   ~ 0
+ABUS8
+Text Label 1850 9000 2    50   ~ 0
+ABUS7
+Text Label 1850 8900 2    50   ~ 0
+ABUS6
+Text Label 1850 8800 2    50   ~ 0
+ABUS5
+Text Label 1850 8700 2    50   ~ 0
+ABUS4
+Text Label 1850 8600 2    50   ~ 0
+ABUS3
+Text Label 1850 8500 2    50   ~ 0
+ABUS2
+Text Label 1850 8400 2    50   ~ 0
+ABUS1
+Text Label 1850 8300 2    50   ~ 0
+ABUS0
+Wire Wire Line
+	1450 9600 1850 9600
+Wire Wire Line
+	1450 9500 1850 9500
+Wire Wire Line
+	1450 9400 1850 9400
+Wire Wire Line
+	1450 9300 1850 9300
+Wire Wire Line
+	1450 9200 1850 9200
+Wire Wire Line
+	1450 9100 1850 9100
+Wire Wire Line
+	1450 9000 1850 9000
+Wire Wire Line
+	1450 8900 1850 8900
+Wire Wire Line
+	1450 8800 1850 8800
+Wire Wire Line
+	1450 8700 1850 8700
+Wire Wire Line
+	1450 8600 1850 8600
+Wire Wire Line
+	1450 8500 1850 8500
+Wire Wire Line
+	1450 8400 1850 8400
+Wire Wire Line
+	1450 8300 1850 8300
+Wire Bus Line
+	1350 8150 1200 8150
+Text HLabel 1200 8150 0    50   Input ~ 0
+ABUS[15:0]
+Entry Wire Line
+	1350 8200 1450 8300
+Entry Wire Line
+	1350 8300 1450 8400
+Entry Wire Line
+	1350 8400 1450 8500
+Entry Wire Line
+	1350 8500 1450 8600
+Entry Wire Line
+	1350 8600 1450 8700
+Entry Wire Line
+	1350 8700 1450 8800
+Entry Wire Line
+	1350 8800 1450 8900
+Entry Wire Line
+	1350 8900 1450 9000
+Entry Wire Line
+	1350 9000 1450 9100
+Entry Wire Line
+	1350 9100 1450 9200
+Entry Wire Line
+	1350 9200 1450 9300
+Entry Wire Line
+	1350 9300 1450 9400
+Entry Wire Line
+	1350 9400 1450 9500
+Entry Wire Line
+	1350 9500 1450 9600
+Entry Wire Line
+	1350 9600 1450 9700
+Entry Wire Line
+	1350 9700 1450 9800
+Text HLabel 2500 8200 0    50   Input ~ 0
+ROMOE-A16D
+Text HLabel 4700 9700 2    50   Input ~ 0
+ROMSEL0.L
+Text HLabel 7750 9700 2    50   Input ~ 0
+ROMSEL1.L
+Wire Bus Line
+	1400 5900 1400 6600
+Wire Bus Line
+	2400 1450 2400 2400
+Wire Bus Line
+	1350 8150 1350 9700
+Text HLabel 4050 7300 0    50   Input ~ 0
+PH2.H
 $EndSCHEMATC

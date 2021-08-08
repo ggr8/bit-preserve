@@ -2794,10 +2794,82 @@ Text Notes 6050 1500 0    50   ~ 0
 H2, H3, and H4 form\nDAC for RGB video
 Text Notes 4700 3800 0    50   ~ 0
 VIDx - 12-bit binary values for RGB
-Text Notes 1650 4150 0    50   ~ 0
+Text Notes 650  4150 0    50   ~ 0
 MDBUSx goes back to MEGA-II
 Text Notes 650  5300 0    50   ~ 0
 All clocks derived from\n28.636360 MHz Xtal\n\nUnclear who generates 14M:\nMEGA-II or VGC\n\nPH0 and PH2 not entirely clear
-Text Notes 1350 4550 0    50   ~ 0
+Text Notes 650  4650 0    50   ~ 0
 STRETCH:\nEvery 65 clocks, A2 must have 1\nlonger clock period. For each\nHorizontal line.
+Wire Bus Line
+	1850 1800 1750 1800
+Text HLabel 1750 1800 0    50   Input ~ 0
+MADBUS[7:0]
+Entry Wire Line
+	1850 1850 1950 1950
+Entry Wire Line
+	1850 1950 1950 2050
+Entry Wire Line
+	1850 2050 1950 2150
+Entry Wire Line
+	1850 2150 1950 2250
+Entry Wire Line
+	1850 2250 1950 2350
+Entry Wire Line
+	1850 2350 1950 2450
+Entry Wire Line
+	1850 2450 1950 2550
+Entry Wire Line
+	1850 2550 1950 2650
+Wire Bus Line
+	1850 2700 1750 2700
+Text HLabel 1750 2700 0    50   Input ~ 0
+RADBUS[7:0]
+Entry Wire Line
+	1850 2750 1950 2850
+Entry Wire Line
+	1850 2850 1950 2950
+Entry Wire Line
+	1850 2950 1950 3050
+Entry Wire Line
+	1850 3050 1950 3150
+Entry Wire Line
+	1850 3150 1950 3250
+Entry Wire Line
+	1850 3250 1950 3350
+Entry Wire Line
+	1850 3350 1950 3450
+Entry Wire Line
+	1850 3450 1950 3550
+Text HLabel 2800 4400 0    50   Input ~ 0
+MADBUS[7:0]
+Entry Wire Line
+	2900 3650 3000 3750
+Entry Wire Line
+	2900 3750 3000 3850
+Entry Wire Line
+	2900 3850 3000 3950
+Entry Wire Line
+	2900 3950 3000 4050
+Entry Wire Line
+	2900 4050 3000 4150
+Entry Wire Line
+	2900 4150 3000 4250
+Entry Wire Line
+	2900 4250 3000 4350
+Entry Wire Line
+	2900 4350 3000 4450
+Wire Bus Line
+	2900 4400 2800 4400
+Wire Bus Line
+	2900 3650 2900 4400
+Wire Bus Line
+	1850 1800 1850 2550
+Wire Bus Line
+	1850 2700 1850 3450
+Text HLabel 2200 5000 0    50   Input ~ 0
+14MD.H
+Text HLabel 3000 4700 0    50   Input ~ 0
+STRETCH.L
+Text HLabel 3000 4600 0    50   Input ~ 0
+A2R-W.H
 $EndSCHEMATC

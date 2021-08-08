@@ -1192,4 +1192,6 @@ Text HLabel 6700 1200 2    50   Input ~ 0
 M2BA0
 Text HLabel 8850 6050 2    50   Input ~ 0
 fastRR-W.H
+Text HLabel 10350 2700 2    50   Input ~ 0
+ABORT
 $EndSCHEMATC
