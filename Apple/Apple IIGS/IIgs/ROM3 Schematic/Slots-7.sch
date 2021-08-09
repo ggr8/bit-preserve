@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 10
+Sheet 1 1
 Title ""
 Date ""
 Rev "2"
@@ -2026,22 +2026,6 @@ Wire Wire Line
 	2050 6800 2000 6800
 Wire Wire Line
 	2000 6800 2000 6850
-Text Label 3450 8000 2    50   ~ 0
-MDBUS0
-Text Label 3450 8100 2    50   ~ 0
-MDBUS0
-Text Label 3450 8200 2    50   ~ 0
-MDBUS0
-Text Label 3450 8300 2    50   ~ 0
-MDBUS0
-Text Label 3450 8400 2    50   ~ 0
-MDBUS0
-Text Label 3450 8500 2    50   ~ 0
-MDBUS0
-Text Label 3450 8600 2    50   ~ 0
-MDBUS0
-Text Label 3450 8700 2    50   ~ 0
-MDBUS0
 Text Label 1850 7850 0    50   ~ 0
 MDIN-OUT
 $Comp
@@ -2312,4 +2296,20 @@ Wire Wire Line
 Connection ~ 1700 7850
 Text Notes 2500 7250 0    50   ~ 0
 C038-3F appears to be sound related\nhttps://www.kreativekorp.com/miscpages/a2info/iomemory.shtml
+Text Label 3450 8000 2    50   ~ 0
+MDBUS0
+Text Label 3450 8100 2    50   ~ 0
+MDBUS1
+Text Label 3450 8200 2    50   ~ 0
+MDBUS2
+Text Label 3450 8300 2    50   ~ 0
+MDBUS3
+Text Label 3450 8400 2    50   ~ 0
+MDBUS4
+Text Label 3450 8500 2    50   ~ 0
+MDBUS5
+Text Label 3450 8600 2    50   ~ 0
+MDBUS6
+Text Label 3450 8700 2    50   ~ 0
+MDBUS7
 $EndSCHEMATC

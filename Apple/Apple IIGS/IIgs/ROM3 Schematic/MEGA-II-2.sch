@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 10 10
+Sheet 1 1
 Title "MEGA-II for IIgs ROM3"
 Date ""
 Rev "2"
@@ -2163,10 +2163,6 @@ Text Notes 10100 5850 0    50   ~ 0
 SERVIDEO = Test Signal. \nComposite w/out Sync
 Text Notes 11950 10400 0    50   ~ 0
 TIL the Apple II memory map \nis a nightmare. "Thanks" Woz!\nJ/K You're awesome!\n-James
-Text GLabel 9700 8250 0    50   Input ~ 0
-FLIP6.H
-Text GLabel 9750 9000 0    50   Input ~ 0
-FLIP7.H
 Wire Wire Line
 	2600 2350 3000 2350
 Wire Wire Line
@@ -2443,4 +2439,8 @@ Wire Bus Line
 	14950 1400 14950 2100
 Wire Bus Line
 	2500 1300 2500 2950
+Text HLabel 9700 8250 0    50   Input ~ 0
+FLIP6.H
+Text HLabel 9750 9000 0    50   Input ~ 0
+FLIP7.H
 $EndSCHEMATC

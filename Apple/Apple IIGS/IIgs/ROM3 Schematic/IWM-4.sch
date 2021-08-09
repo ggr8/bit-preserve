@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 10
+Sheet 1 1
 Title "IWM, Serial, Gameport"
 Date ""
 Rev "2"
@@ -601,8 +601,6 @@ Wire Wire Line
 	1700 1050 1150 1050
 Wire Wire Line
 	2650 3050 3000 3050
-Text GLabel 1100 3200 0    50   Input ~ 0
-INTDEV6.L
 Text Label 1600 3200 2    50   ~ 0
 INTDEV6.L
 $Comp
@@ -2360,7 +2358,7 @@ Text HLabel 900  5450 0    50   Input ~ 0
 IRQ.L
 Text HLabel 1200 2750 0    50   Input ~ 0
 7M.H
-Text Label 1450 2950 2    50   ~ 0
+Text Label 1600 2950 2    50   ~ 0
 Q3.H
 Wire Wire Line
 	1200 2950 1600 2950
@@ -2908,4 +2906,6 @@ Wire Wire Line
 	2400 9300 3350 9300
 Wire Wire Line
 	2400 9450 2950 9450
+Text HLabel 1100 3200 0    50   Input ~ 0
+INTDEV6.L
 $EndSCHEMATC
