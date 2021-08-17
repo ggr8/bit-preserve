@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L IIgs-Schematic:Game-IO J21
 U 1 1 5BF2066B
-P 1650 6800
-F 0 "J21" H 1650 7250 50  0000 C CNN
-F 1 "Game-IO" H 1650 6350 50  0000 C CNN
-F 2 "" H 1650 7300 50  0001 C CNN
-F 3 "" H 1650 7300 50  0001 C CNN
-	1    1650 6800
+P 2000 6800
+F 0 "J21" H 2000 7250 50  0000 C CNN
+F 1 "Game-IO" H 2000 6350 50  0000 C CNN
+F 2 "" H 2000 7300 50  0001 C CNN
+F 3 "" H 2000 7300 50  0001 C CNN
+	1    2000 6800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1063,122 +1063,118 @@ Wire Wire Line
 	4450 1700 4450 2150
 Text Label 4250 3850 0    50   ~ 0
 VBL.L
-Text Label 2250 7050 2    50   ~ 0
+Text Label 2600 7050 2    50   ~ 0
 PDL1
 Wire Wire Line
-	2250 7050 1950 7050
-Text Label 2250 6950 2    50   ~ 0
+	2600 7050 2300 7050
+Text Label 2600 6950 2    50   ~ 0
 PDL3
 Wire Wire Line
-	2250 6950 1950 6950
-Text Label 2250 6850 2    50   ~ 0
-PDL1
-Wire Wire Line
-	2250 6850 1950 6850
-Text Label 2250 6750 2    50   ~ 0
+	2600 6950 2300 6950
+Text Label 2600 6850 2    50   ~ 0
 AN3
 Wire Wire Line
-	2250 6750 1950 6750
-Text Label 2250 6650 2    50   ~ 0
+	2600 6850 2300 6850
+Text Label 2600 6750 2    50   ~ 0
 AN2
 Wire Wire Line
-	2250 6650 1950 6650
-Text Label 2250 6550 2    50   ~ 0
+	2600 6750 2300 6750
+Text Label 2600 6650 2    50   ~ 0
 AN1
 Wire Wire Line
-	2250 6550 1950 6550
-Text Label 2250 6450 2    50   ~ 0
+	2600 6650 2300 6650
+Text Label 2600 6550 2    50   ~ 0
 AN0
 Wire Wire Line
-	2250 6450 1950 6450
-Text Label 2250 7150 2    50   ~ 0
+	2600 6550 2300 6550
+Text Label 2600 7150 2    50   ~ 0
 SW3
 Wire Wire Line
-	2250 7150 1950 7150
+	2600 7150 2300 7150
 Wire Wire Line
-	1350 6450 1250 6450
+	1700 6450 1600 6450
 Wire Wire Line
-	1250 6450 1250 6400
+	1600 6450 1600 6400
 $Comp
 L power:+5V #PWR?
 U 1 1 5CFE6032
-P 1250 6400
-F 0 "#PWR?" H 1250 6250 50  0001 C CNN
-F 1 "+5V" H 1265 6573 50  0000 C CNN
-F 2 "" H 1250 6400 50  0001 C CNN
-F 3 "" H 1250 6400 50  0001 C CNN
-	1    1250 6400
+P 1600 6400
+F 0 "#PWR?" H 1600 6250 50  0001 C CNN
+F 1 "+5V" H 1615 6573 50  0000 C CNN
+F 2 "" H 1600 6400 50  0001 C CNN
+F 3 "" H 1600 6400 50  0001 C CNN
+	1    1600 6400
 	1    0    0    -1  
 $EndComp
-Text Label 850  6550 0    50   ~ 0
+Text Label 1200 6550 0    50   ~ 0
 SW0-OAPL
-Text Label 850  6650 0    50   ~ 0
+Text Label 1200 6650 0    50   ~ 0
 SW1-CAPL
 Wire Wire Line
-	850  6550 1350 6550
+	1200 6550 1700 6550
 Wire Wire Line
-	850  6650 1350 6650
+	1200 6650 1700 6650
 $Comp
 L Device:R_Small R117
 U 1 1 5D009004
-P 950 6900
-F 0 "R117" V 850 6900 50  0000 C CNN
-F 1 "4.7K" V 1050 6900 50  0000 C CNN
-F 2 "" V 880 6900 50  0001 C CNN
-F 3 "~" H 950 6900 50  0001 C CNN
-	1    950  6900
+P 1300 6900
+F 0 "R117" V 1200 6900 50  0000 C CNN
+F 1 "4.7K" V 1400 6900 50  0000 C CNN
+F 2 "" V 1230 6900 50  0001 C CNN
+F 3 "~" H 1300 6900 50  0001 C CNN
+	1    1300 6900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1150 6900 1150 6850
+	1500 6900 1500 6850
 Wire Wire Line
-	1150 6850 1350 6850
+	1500 6850 1700 6850
 $Comp
 L power:+5V #PWR?
 U 1 1 5D02D882
-P 750 6900
-F 0 "#PWR?" H 750 6750 50  0001 C CNN
-F 1 "+5V" V 765 7028 50  0000 L CNN
-F 2 "" H 750 6900 50  0001 C CNN
-F 3 "" H 750 6900 50  0001 C CNN
-	1    750  6900
+P 1100 6900
+F 0 "#PWR?" H 1100 6750 50  0001 C CNN
+F 1 "+5V" V 1115 7028 50  0000 L CNN
+F 2 "" H 1100 6900 50  0001 C CNN
+F 3 "" H 1100 6900 50  0001 C CNN
+	1    1100 6900
 	0    -1   -1   0   
 $EndComp
-Text Label 1150 6850 0    50   ~ 0
+Text Label 1500 6850 0    50   ~ 0
 STB.L
 Wire Wire Line
-	1350 6950 1150 6950
+	1700 6950 1500 6950
 Wire Wire Line
-	1150 7150 850  7150
+	1500 7150 1200 7150
 Wire Wire Line
-	1150 6950 1150 7150
-Text Label 850  7150 0    50   ~ 0
+	1500 6950 1500 7150
+Text Label 1200 7150 0    50   ~ 0
 PDL0
 Wire Wire Line
-	1350 7050 1200 7050
+	1700 7050 1550 7050
 Wire Wire Line
-	1200 7050 1200 7250
+	1550 7050 1550 7250
 Wire Wire Line
-	1200 7250 850  7250
-Text Label 850  7250 0    50   ~ 0
+	1550 7250 1200 7250
+Text Label 1200 7250 0    50   ~ 0
 PDL2
 Wire Wire Line
-	850  6750 1350 6750
-Text Label 850  6750 0    50   ~ 0
+	1200 6750 1700 6750
+Text Label 1200 6750 0    50   ~ 0
 SW2
 Wire Wire Line
-	1350 7150 1300 7150
+	1700 7150 1650 7150
 Wire Wire Line
-	1300 7150 1300 7250
+	1650 7150 1650 7250
 $Comp
 L power:GND #PWR?
 U 1 1 5D0A3210
-P 1300 7250
-F 0 "#PWR?" H 1300 7000 50  0001 C CNN
-F 1 "GND" H 1305 7077 50  0000 C CNN
-F 2 "" H 1300 7250 50  0001 C CNN
-F 3 "" H 1300 7250 50  0001 C CNN
-	1    1300 7250
+P 1650 7250
+F 0 "#PWR?" H 1650 7000 50  0001 C CNN
+F 1 "GND" H 1655 7077 50  0000 C CNN
+F 2 "" H 1650 7250 50  0001 C CNN
+F 3 "" H 1650 7250 50  0001 C CNN
+	1    1650 7250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1218,9 +1214,9 @@ Wire Wire Line
 Wire Wire Line
 	6600 7200 6600 7300
 Wire Wire Line
-	750  6900 850  6900
+	1100 6900 1200 6900
 Wire Wire Line
-	1050 6900 1150 6900
+	1400 6900 1500 6900
 Text HLabel 4350 4250 0    39   Input ~ 0
 CREF.H
 Text Notes 800  6050 0    50   ~ 0
@@ -1269,11 +1265,6 @@ Wire Wire Line
 	8600 1900 9050 1900
 Text HLabel 8600 4950 0    50   Input ~ 0
 SW0-OAPL
-Text HLabel 7350 2650 2    50   Input ~ 0
-SW1-OAPL
-Wire Wire Line
-	7350 2650 7250 2650
-Connection ~ 7250 2650
 Text Notes 4900 5450 0    50   ~ 0
 Mitsubishi 740 Microcontroller\n(6502 based)\nfor ADB
 $Comp
@@ -1356,4 +1347,9 @@ Text Notes 2550 2500 0    50   ~ 0
 UL12 labels changed from schematic
 Text Notes 6700 3900 0    39   ~ 0
 UI14-35 and 34 are strange designations here. \nThey connected to the keyboard matrix on the \n256K IIgs (which 1MB doesn't have.)\n-35 is X1\n-34 is X2\n\nBut the rest of the matrix is missing.
+Text HLabel 1200 6650 0    50   Input ~ 0
+SW1-OAPL
+Text HLabel 1200 6550 0    50   Input ~ 0
+SW0-OAPL
+NoConn ~ 2300 6450
 $EndSCHEMATC

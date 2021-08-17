@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 1
+Sheet 4 10
 Title "IWM, Serial, Gameport"
 Date ""
 Rev "2"
@@ -571,34 +571,34 @@ Wire Wire Line
 $Comp
 L Device:R_Small R120
 U 1 1 5EA01B07
-P 1950 1050
-F 0 "R120" V 1850 1050 50  0000 C CNN
-F 1 "470" V 2050 1050 50  0000 C CNN
-F 2 "" H 1950 1050 50  0001 C CNN
-F 3 "~" H 1950 1050 50  0001 C CNN
-	1    1950 1050
+P 7950 850
+F 0 "R120" V 7850 850 50  0000 C CNN
+F 1 "470" V 8050 850 50  0000 C CNN
+F 2 "" H 7950 850 50  0001 C CNN
+F 3 "~" H 7950 850 50  0001 C CNN
+	1    7950 850 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1850 1050 1700 1050
-Text Label 1600 1050 2    50   ~ 0
+	7850 850  7700 850 
+Text Label 7600 850  2    50   ~ 0
 3.5DIK
 $Comp
 L Connector:TestPoint TP111
 U 1 1 5EA09332
-P 1700 850
-F 0 "TP111" H 1758 922 50  0000 L CNN
-F 1 "TestPoint" H 1758 877 50  0001 L CNN
-F 2 "" H 1900 850 50  0001 C CNN
-F 3 "~" H 1900 850 50  0001 C CNN
-	1    1700 850 
+P 7700 650
+F 0 "TP111" H 7758 722 50  0000 L CNN
+F 1 "TestPoint" H 7758 677 50  0001 L CNN
+F 2 "" H 7900 650 50  0001 C CNN
+F 3 "~" H 7900 650 50  0001 C CNN
+	1    7700 650 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 850  1700 1050
-Connection ~ 1700 1050
+	7700 650  7700 850 
+Connection ~ 7700 850 
 Wire Wire Line
-	1700 1050 1150 1050
+	7700 850  7150 850 
 Wire Wire Line
 	2650 3050 3000 3050
 Text Label 1600 3200 2    50   ~ 0
@@ -627,25 +627,25 @@ Text Label 2650 3150 0    50   ~ 0
 $Comp
 L Connector:TestPoint TP153
 U 1 1 5EA47314
-P 1550 1600
-F 0 "TP153" V 1653 1672 50  0000 C CNN
-F 1 "TestPoint" H 1608 1627 50  0001 L CNN
-F 2 "" H 1750 1600 50  0001 C CNN
-F 3 "~" H 1750 1600 50  0001 C CNN
-	1    1550 1600
+P 7550 1400
+F 0 "TP153" V 7653 1472 50  0000 C CNN
+F 1 "TestPoint" H 7608 1427 50  0001 L CNN
+F 2 "" H 7750 1400 50  0001 C CNN
+F 3 "~" H 7750 1400 50  0001 C CNN
+	1    7550 1400
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1550 1600 1700 1600
+	7550 1400 7700 1400
 $Comp
 L Device:R_Small R190
 U 1 1 5EA4A8B7
-P 1950 1400
-F 0 "R190" V 1850 1400 50  0000 C CNN
-F 1 "470" V 2050 1400 50  0000 C CNN
-F 2 "" H 1950 1400 50  0001 C CNN
-F 3 "~" H 1950 1400 50  0001 C CNN
-	1    1950 1400
+P 7950 1200
+F 0 "R190" V 7850 1200 50  0000 C CNN
+F 1 "470" V 8050 1200 50  0000 C CNN
+F 2 "" H 7950 1200 50  0001 C CNN
+F 3 "~" H 7950 1200 50  0001 C CNN
+	1    7950 1200
 	0    1    1    0   
 $EndComp
 Text Notes 12000 9850 0    50   ~ 0
@@ -1131,7 +1131,7 @@ F 3 "" H 1600 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 7600 2500 7600
+	2350 7600 2600 7600
 Wire Wire Line
 	1600 7700 1600 7750
 $Comp
@@ -1149,18 +1149,16 @@ Wire Wire Line
 	1250 7750 1600 7750
 Text Label 1250 7750 0    50   ~ 0
 SW2
-Wire Wire Line
-	2500 7600 2600 7600
-Connection ~ 2500 7600
+Connection ~ 2600 7600
 $Comp
 L power:+5V #PWR?
 U 1 1 5F0F560A
-P 2500 7600
-F 0 "#PWR?" H 2500 7450 50  0001 C CNN
-F 1 "+5V" H 2515 7773 50  0000 C CNN
-F 2 "" H 2500 7600 50  0001 C CNN
-F 3 "" H 2500 7600 50  0001 C CNN
-	1    2500 7600
+P 2600 7600
+F 0 "#PWR?" H 2600 7450 50  0001 C CNN
+F 1 "+5V" H 2615 7773 50  0000 C CNN
+F 2 "" H 2600 7600 50  0001 C CNN
+F 3 "" H 2600 7600 50  0001 C CNN
+	1    2600 7600
 	1    0    0    -1  
 $EndComp
 Connection ~ 2350 7600
@@ -1168,7 +1166,6 @@ Wire Wire Line
 	2350 7650 2350 7600
 Wire Wire Line
 	2600 7600 2850 7600
-Connection ~ 2600 7600
 Wire Wire Line
 	2600 7650 2600 7600
 Wire Wire Line
@@ -1810,10 +1807,10 @@ Wire Wire Line
 Wire Wire Line
 	5150 5800 5350 5800
 Connection ~ 5350 5800
-Text Label 2450 1400 2    50   ~ 0
+Text Label 8450 1200 2    50   ~ 0
 J8-16
 Wire Wire Line
-	2050 1400 2450 1400
+	8050 1200 8450 1200
 $Comp
 L power:GNDREF #PWR?
 U 1 1 61047E19
@@ -2333,25 +2330,25 @@ Wire Wire Line
 	12800 8550 13200 8550
 Wire Wire Line
 	13200 8450 12800 8450
-Text Label 2450 1050 2    50   ~ 0
+Text Label 8450 850  2    50   ~ 0
 J8-4
-Text HLabel 1150 1050 0    50   Input ~ 0
+Text HLabel 7150 850  0    50   Input ~ 0
 3.5DIK
 Text HLabel 1200 2950 0    50   Input ~ 0
 Q3.H
-Text HLabel 1150 1400 0    50   Input ~ 0
+Text HLabel 7150 1200 0    50   Input ~ 0
 HDSEL.H
-Connection ~ 1700 1400
+Connection ~ 7700 1200
 Wire Wire Line
-	1850 1400 1700 1400
+	7850 1200 7700 1200
 Wire Wire Line
-	1150 1400 1700 1400
+	7150 1200 7700 1200
 Wire Wire Line
-	1700 1600 1700 1400
-Text Label 1700 1400 2    50   ~ 0
+	7700 1400 7700 1200
+Text Label 7700 1200 2    50   ~ 0
 HDSEL.H
 Wire Wire Line
-	2050 1050 2450 1050
+	8050 850  8450 850 
 Text HLabel 950  5150 0    50   Input ~ 0
 RDY.H
 Text HLabel 900  5450 0    50   Input ~ 0
